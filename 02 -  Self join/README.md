@@ -1,6 +1,7 @@
 ## Question
 - Find the employee details who has salary greater than their managers salary.
 
+```sql
 DROP TABLE IF EXISTS Employees;
 CREATE TABLE Employees (
     id INT,          -- Auto-incrementing ID for each employee
@@ -23,6 +24,7 @@ VALUES
 (7, 'Grace', 60000, 3, 3, '2022-05-12'),       -- Grace reports to Charlie
 (8, 'Heidi', 88000, 3, 1, '2022-06-15'),       -- Heidi reports to Alice
 (9, 'Sam', 89000, 3, 2, '2022-05-01');
+```
 
 
 [reference vid](https://www.youtube.com/watch?v=Fvu_qJwA_cI&list=PLF2u7Zn-dIxaBr_hd9Hwexqll7elUMsw_&index=19&t=320s)
