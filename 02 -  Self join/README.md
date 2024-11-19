@@ -26,7 +26,8 @@ VALUES
 (9, 'Sam', 89000, 3, 2, '2022-05-01');
 ```
 
-### Solution
+<details>
+	<summary><i>solution</i></summary>
 
 ```sql
 --  approach 1
@@ -43,5 +44,6 @@ SELECT *
 FROM Employees AS e1 JOIN Employees AS e2 ON e1.manager_id = e2.id
 WHERE e1.salary > e2.salary
 ```
+</details>
 
-[reference vid](https://www.youtube.com/watch?v=Fvu_qJwA_cI&list=PLF2u7Zn-dIxaBr_hd9Hwexqll7elUMsw_&index=19&t=320s)
+[reference yt vid](https://www.youtube.com/watch?v=Fvu_qJwA_cI&list=PLF2u7Zn-dIxaBr_hd9Hwexqll7elUMsw_&index=19&t=320s)
