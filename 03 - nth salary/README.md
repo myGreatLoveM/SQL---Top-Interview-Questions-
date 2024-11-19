@@ -29,8 +29,9 @@ VALUES
 COMMIT;
 ```
 
-### Solution
-
+<details>
+	<summary>solution</summary>
+	
 ```sql
 ---  Top n salaries (for example top 6 salaries)
 WITH emp_with_rank AS (
@@ -54,6 +55,7 @@ FROM emp_with_rank
 WHERE rk = 6;
 
 ```
+</details>
 
 
 [refrence yt vid](https://www.youtube.com/watch?v=0NyTzXURInw&list=PLF2u7Zn-dIxaBr_hd9Hwexqll7elUMsw_&index=17)
